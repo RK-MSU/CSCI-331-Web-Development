@@ -1,0 +1,69 @@
+{
+    "bigsky": [
+        {
+            "name": "Eagles",
+            "school": "Eastern Washington University",
+            "rank": 1
+        },
+        {
+            "name": "Aggies",
+            "school": "University of California, Davis",
+            "rank": 2
+        },
+        {
+            "name": "Grizzlies",
+            "school": "University of Montana",
+            "rank": 3
+        },
+        {
+            "name": "Bobcats",
+            "school": "Montana State University",
+            "rank": 4
+        },
+        {
+            "name": "Wildcats",
+            "school": "Weber State University",
+            "rank": 5
+        },
+        {
+            "name": "Vandals",
+            "school": "University of Idaho",
+            "rank": 6
+        },
+        {
+            "name": "Vikings",
+            "school": "Portland State University",
+            "rank": 7
+        },
+        {
+            "name": "Thunderbirds",
+            "school": "Southern Utah University",
+            "rank": 8
+        },
+        {
+            "name": "Hornets",
+            "school": "Sacramento State University",
+            "rank": 9
+        },
+        {
+            "name": "Bears",
+            "school": "University of Northern Colorado",
+            "rank": 10
+        },
+        {
+            "name": "Mustangs",
+            "school": "California Polytechnic State University",
+            "rank": 11
+        },
+        {
+            "name": "Lumberjacks",
+            "school": "Northern Arizon University",
+            "rank": 12
+        },
+        {
+            "name": "Bengals",
+            "school": "Idaho State University",
+            "rank": 13
+        }
+    ]
+}

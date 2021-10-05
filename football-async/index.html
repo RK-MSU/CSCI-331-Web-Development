@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://csci331.cs.montana.edu/~h48c334/async/football.html -->
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AJAX Example</title>
+    <style>
+        table,
+        table * {
+            border: 1px solid gray
+        }
+
+        td {
+            padding: 0 10px;
+        }
+
+        #filterResult {
+            color: rgb(32, 76, 121);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+    </style>
+    <script src="./script.js" defer=""></script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1031.0" data-gr-ext-installed="">
+    <p>School name: <input type="text" id="txt1" onkeyup="filterSchool(this.value)"></p>
+    <ol id="filterResult"></ol>
+    <table>
+        <tbody>
+            <tr>
+                <th>Team</th>
+                <th>School</th>
+                <th>Rank</th>
+            </tr>
+        </tbody>
+        <tbody id="leaderboard">
+            <tr>
+                <td>Eagles</td>
+                <td>Eastern Washington University</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Aggies</td>
+                <td>University of California, Davis</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Grizzlies</td>
+                <td>University of Montana</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Bobcats</td>
+                <td>Montana State University</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Wildcats</td>
+                <td>Weber State University</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Vandals</td>
+                <td>University of Idaho</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Vikings</td>
+                <td>Portland State University</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Thunderbirds</td>
+                <td>Southern Utah University</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Hornets</td>
+                <td>Sacramento State University</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Bears</td>
+                <td>University of Northern Colorado</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Mustangs</td>
+                <td>California Polytechnic State University</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Lumberjacks</td>
+                <td>Northern Arizon University</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Bengals</td>
+                <td>Idaho State University</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+</html>
