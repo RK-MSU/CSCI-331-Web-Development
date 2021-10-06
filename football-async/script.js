@@ -28,10 +28,21 @@ function fillTable(jdoc) {
     console.log(jdoc);
     let table = "";
     for (let i = 0; i < jdoc.bigsky.length; i++) {
-        table += "<tr><td>" + jdoc.bigsky[i].name +
+        table += "<tr><td>" + jdoc.bigsky[i].rank +
+            "</td><td>" + jdoc.bigsky[i].name +
             "</td><td>" + jdoc.bigsky[i].school +
-            "</td><td>" + jdoc.bigsky[i].rank +
             "</td></tr>";
     }
     return table;
 }
+
+let table = document.getElementById("footballTable")
+
+let tableEvent = function(evt) {
+    let input = document.getElementById("searchInput");
+    input.value = "";
+    filterResult.innerHTML = "";
+}
+
+table.addEventListener("click", tableEvent);
+

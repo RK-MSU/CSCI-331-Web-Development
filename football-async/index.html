@@ -4,50 +4,38 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>AJAX Example</title>
-    <style>
-        table,
-        table * {
-            border: 1px solid gray
-        }
-
-        td {
-            padding: 0 10px;
-        }
-
-        #filterResult {
-            color: rgb(32, 76, 121);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 1.2em;
-        }
-    </style>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
     <script src="./script.js" defer=""></script>
 </head>
 <body data-new-gr-c-s-check-loaded="14.1031.0" data-gr-ext-installed="">
-    <p>School name: <input type="text" id="txt1" onkeyup="filterSchool(this.value)"></p>
+    <h1><a href="https://en.wikipedia.org/wiki/Big_Sky_Conference">Big Sky Conference</a> Football</h1>
+    <p>School name: <input id="searchInput" type="text" id="txt1" onkeyup="filterSchool(this.value)"></p>
     <ol id="filterResult"></ol>
-    <table>
+    <table id="footballTable">
         <tbody>
             <tr>
+                <th>Rank</th>
                 <th>Team</th>
                 <th>School</th>
-                <th>Rank</th>
             </tr>
         </tbody>
         <tbody id="leaderboard">
             <tr>
+                <td>1</td>
                 <td>Eagles</td>
                 <td>Eastern Washington University</td>
-                <td>1</td>
             </tr>
             <tr>
+                <td>2</td>
                 <td>Aggies</td>
                 <td>University of California, Davis</td>
-                <td>2</td>
+                
             </tr>
             <tr>
+                <td>3</td>
                 <td>Grizzlies</td>
                 <td>University of Montana</td>
-                <td>3</td>
+                
             </tr>
             <tr>
                 <td>Bobcats</td>
@@ -55,49 +43,57 @@
                 <td>4</td>
             </tr>
             <tr>
+                <td>5</td>
                 <td>Wildcats</td>
                 <td>Weber State University</td>
-                <td>5</td>
+                
             </tr>
             <tr>
+                <td>6</td>
                 <td>Vandals</td>
                 <td>University of Idaho</td>
-                <td>6</td>
+               
             </tr>
             <tr>
+                <td>7</td>
                 <td>Vikings</td>
                 <td>Portland State University</td>
-                <td>7</td>
+                
             </tr>
             <tr>
+                <td>8</td>
                 <td>Thunderbirds</td>
                 <td>Southern Utah University</td>
-                <td>8</td>
+                
             </tr>
             <tr>
+                <td>9</td>
                 <td>Hornets</td>
                 <td>Sacramento State University</td>
-                <td>9</td>
+                
             </tr>
             <tr>
+                <td>10</td>
                 <td>Bears</td>
                 <td>University of Northern Colorado</td>
-                <td>10</td>
+                
             </tr>
             <tr>
+                <td>11</td>
                 <td>Mustangs</td>
                 <td>California Polytechnic State University</td>
-                <td>11</td>
+                
             </tr>
             <tr>
+                <td>12</td>
                 <td>Lumberjacks</td>
                 <td>Northern Arizon University</td>
-                <td>12</td>
+                
             </tr>
             <tr>
+                <td>13</td>
                 <td>Bengals</td>
                 <td>Idaho State University</td>
-                <td>13</td>
             </tr>
         </tbody>
     </table>
